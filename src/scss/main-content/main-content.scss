@@ -1,0 +1,36 @@
+.main-content{
+    grid-area: main;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    margin-left: 80px;
+    
+    
+
+    &__paragraph{
+        margin: 0;
+        font-size: 30px;
+        font-weight: 300;
+        font-family: "lato";
+        width: 300px;
+        text-align: center;
+     
+        
+        
+    }
+    &__title{
+        margin: 0;
+        padding: 0;
+        font-size: 50px;
+        width: 300px;
+    }
+    &__description{
+      margin-top: 4rem;
+      font-weight: 300;
+      font-family: "lato";
+      line-height: 18px;
+    }
+
+}
