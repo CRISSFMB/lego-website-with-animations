@@ -1,0 +1,39 @@
+.navbar {
+  background-color: $white;
+  grid-area: nav;
+  &__content{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 0 0 80px;
+    animation: 2s navbar ease;
+   
+  }
+ 
+  &__logo{
+    width: 50px;
+  }
+}
+
+@keyframes navbar {
+   0%{
+     transform: translateY(-200px);
+
+   }
+   100%{
+    transform: translateY(0);
+
+   }
+}
+
+.navegation{
+  display: flex;
+  margin-left: 1rem;
+  width: 450px;
+  justify-content: space-evenly;
+ 
+ 
+  &__link{
+    color: $red;
+  }
+}

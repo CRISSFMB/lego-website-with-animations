@@ -18,6 +18,7 @@ body {
   background-color: rgba(141, 131, 167, 0.782);
   color: white;
   height: 100vh;
+  width: 100%;
   overflow: hidden;
   font-family: "Lato", sans-serif;
   // font-family: 'Poppins', sans-serif;
@@ -44,19 +45,17 @@ ul {
 }
 
 .container {
-  max-width: 1200px;
-  width: 90%;
-  margin: 0 auto;
   position: absolute;
+  z-index: 1;
   width: 100%;
   height: 100%;
   display: grid;
   grid-template-columns: 55% 40%;
   grid-template-rows: 20% 50% 30%;
-  grid-template-areas:
-    "nav" "aside"
-    "main" "aside"
-    "footer" "aside";
+  grid-template-areas: "nav aside"
+                       "main aside"
+                       "footer aside"
+    
 }
 
 img {
