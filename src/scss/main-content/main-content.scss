@@ -6,6 +6,8 @@
     justify-content: center;
     color: black;
     margin-left: 80px;
+    animation: main-content 2s ease-in-out;
+  
     
     
 
@@ -33,4 +35,15 @@
       line-height: 18px;
     }
 
+}
+
+@keyframes main-content {
+    0%{
+        transform: translateY(-500px);
+    }
+  
+    100%{
+        transform: translateY(0);
+
+    }
 }
