@@ -52,13 +52,13 @@
             </section>
 
             <section class="footer">
-                <div>
+                <div class="footer__hero-content">
                     <img src="https://i.ibb.co/M18p91c/batman.webp" alt="batman" class="footer__batman">
                 </div>
-                <div>
+                <div class="footer__hero-content">
                     <img src="https://i.ibb.co/Xzsdvgg/robin.png" alt="robin" class="footer__robin">
                 </div>
-                <div>
+                <div class="footer__hero-content">
                     <img src="https://i.ibb.co/tKWqw8J/spiderman.png" alt="spiderman" class="footer__spiderman">
                 </div>
             </section>
@@ -74,7 +74,34 @@
 
         <!-- modal -->
 
-        <section class="modal"></section>
+        <section class="modal hidden">
+            <div class="modal__content">
+                <img src="/assets/icons/icons8-macos-close-30.png" alt="icon-close" class="modal__icon">
+                <!-- slider -->
+
+                <input type="radio" id="radio-1" name="slider-1" checked class="input-radio">
+                <input type="radio" id="radio-2" name="slider-1" class="input-radio">
+                <input type="radio" id="radio-3" name="slider-1" class="input-radio">
+
+                <div class="cards">
+                    <label for="radio-1" id="card-1" class="cards__content-1">
+                        <img src="https://static.platzi.com/media/public/uploads/spider-man_db8af43d-b692-4986-a385-e645d286e142.png"
+                            alt="spiderman" class="cards__image">
+                    </label>
+                    <label for="radio-2" id="card-2" class="cards__content-2">
+                        <img src="https://static.platzi.com/media/public/uploads/spider-man-2_b24c96b3-6d59-496f-815d-32b25eba0141.png"
+                            alt="spiderman" class="cards__image">
+                    </label>
+                    <label for="radio-3" id="card-3" class="cards__content-3">
+                        <img src="https://static.platzi.com/media/public/uploads/spider-man-3_19f5c510-8059-4477-abf8-42249a5445b7.png"
+                            alt="spiderman" class="cards__image">
+                    </label>
+                </div>
+            </div>
+
+
+
+        </section>
     </div>
 
 
